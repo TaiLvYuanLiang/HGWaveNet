@@ -17,11 +17,11 @@ Run `python main.py --dataset=dblp` for example.
 - `--spatial_dilated_factors`: a list, dilated factor for HDGC module
 - `--casual_conv_depth`, `--casual_conv_kernel_size`: number of temporal casual convolution layers, temporal casual convolution kernel size, used to config the receival field of HDCC module
 
-For all config parameter description, you can refer to `./cofig.py`
+For all config parameter description, please refer to `./cofig.py`
 
 ## 3. Data preprocessing
 
-The demo dataset can be find in `./data/`
+The demo dataset can be found in `./data/`
 
 The input data is a serialized `dict` object by `torch.save()`. It has the following keys:
 
